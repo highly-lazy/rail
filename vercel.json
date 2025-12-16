@@ -1,6 +1,13 @@
 {
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/railcity2",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     { "source": "/railcity2", "destination": "/railcity2/index.html" },
-    { "source": "/railcity2/:path*", "destination": "/railcity2/:path*" }
+    { "source": "/railcity2/:file*", "destination": "/railcity2/:file*" }
   ]
 }
