@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/railcity2/:match*", "destination": "/railcity2/:match*" }
+    { "source": "/railcity2", "destination": "/railcity2/index.html" },
+    { "source": "/railcity2/:path*", "destination": "/railcity2/:path*" }
   ]
 }
